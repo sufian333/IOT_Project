@@ -1,0 +1,13 @@
+{
+	"name": "HumidityService",
+	"resource": "humidity",
+	"QoS": 2,
+	"endpoints": "/MicroServices/humidity/HumidityService/+/humidity/+",
+	"WSCatalog": {
+		"url": "http://10.12.18.140:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	}
+}

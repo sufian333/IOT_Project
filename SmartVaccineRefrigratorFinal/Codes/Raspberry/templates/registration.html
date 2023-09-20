@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<title>Smart Refrigerator - Register</title>
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+h3{
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.homepage{
+    background-image: url('../img/homepage.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.mainbg{
+    background-color: rgba(255,255,255,0.5);
+    padding: 2rem;
+}
+.btn{
+    margin-bottom:15px;
+}
+label{
+    font-weight: 600;
+}
+
+@media(min-width:1600px){
+
+}
+</style>
+<body>
+<section class="homepage">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="mainbg">
+                    <h1>Smart Refrigerator - Registration</h1>
+                    
+                    <input class="btn btn-primary" type="button" onclick="document.location.href='/';" value="Homepage">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mainbg text-left">
+                    <form action="post_registration" method="POST">
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input class="form-control" type="text" name="user">
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Password:</label>
+                            <input class="form-control" type="password" name="password">
+                        </div>
+                        <div class="form-group">
+                            <input class="btn btn-primary btn-block mt-4" t type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

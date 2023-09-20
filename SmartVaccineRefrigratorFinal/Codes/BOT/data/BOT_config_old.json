@@ -1,0 +1,11 @@
+{
+	"name": "Sufian_IOT_Vaccine",
+	"TOKEN": "1884902546:AAHzLsOSSJJMhi-33Mdf-91y-GRorUqcLGo",
+	"WS_catalog": {
+		"url": "http://192.168.137.40:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	}
+}

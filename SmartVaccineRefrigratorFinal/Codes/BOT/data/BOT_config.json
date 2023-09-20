@@ -1,0 +1,15 @@
+{
+	"name": "SmartRefrigerator_bot",
+	"TOKEN": "1884902546:AAHzLsOSSJJMhi-33Mdf-91y-GRorUqcLGo",
+	"img_TOKEN":"698632069:AAE6T8UL2zHd0Chl_fwLXeKb3Z2cQhQrFGU",
+	"WS_catalog": {
+		"url": "http://192.168.137.40:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	},
+	"WS_products": {
+		"name": "ProductsWS"
+	}
+}

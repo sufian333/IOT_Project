@@ -1,0 +1,14 @@
+{
+	"name": "VaccineService",
+	"resource": "vaccine",
+	"QoS": 2,
+	"endpoints": "/MicroServices/vaccine/VaccineService/+/vaccine/+",
+	"TOKEN":"1828598685:AAH7ChlLH30wyG0VIVAnt2NZsNKAaNI-0LQ",
+	"WSCatalog": {
+		"url": "http://10.12.18.140:8080",
+		"credentials": {
+			"user": "root",
+			"password": "root"
+		}
+	}
+}
